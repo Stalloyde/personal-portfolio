@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/portfoliopage/static/css/main.15b68db7.css",
+    "main.js": "/portfoliopage/static/js/main.bce80f35.js",
+    "static/media/memory-card-screenshot.png": "/portfoliopage/static/media/memory-card-screenshot.67696889604f2ce5fe08.png",
+    "static/media/Tech&Threads.png": "/portfoliopage/static/media/Tech&Threads.dcf0619e834e6790e261.png",
+    "static/media/Roboto-Regular.ttf": "/portfoliopage/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
+    "static/media/Battleship-screenshot.png": "/portfoliopage/static/media/Battleship-screenshot.a11d27683a94b42aa98c.png",
+    "static/media/react.svg": "/portfoliopage/static/media/react.e27571eaed899c642345e71163624ef9.svg",
+    "static/media/jest.svg": "/portfoliopage/static/media/jest.bdea2af60148e3a6f8a1df8b135027d8.svg",
+    "static/media/github-icon.svg": "/portfoliopage/static/media/github-icon.04ed74f38b41cdcbf14f80ae8cd0aa2b.svg",
+    "static/media/github-icon-dark.svg": "/portfoliopage/static/media/github-icon-dark.0b66e287768fdafa71276d1b2f6fcdfb.svg",
+    "static/media/html-5.svg": "/portfoliopage/static/media/html-5.e7638e3676622c76a46ece6c46136fd4.svg",
+    "static/media/html-5-dark.svg": "/portfoliopage/static/media/html-5-dark.1ee27ca26db8cd4dda2f08cdcab29d8b.svg",
+    "static/media/typescript-icon.svg": "/portfoliopage/static/media/typescript-icon.ff34a1b08013556934e1cc0cf67c5baa.svg",
+    "static/media/css-3.svg": "/portfoliopage/static/media/css-3.e7a9de36d9335d92932e93eb3b32deb9.svg",
+    "static/media/css-3-dark.svg": "/portfoliopage/static/media/css-3-dark.9257872ca42fe1825935fc286553951c.svg",
+    "static/media/instagram-icon.svg": "/portfoliopage/static/media/instagram-icon.b2043c0295ef318920bcd05b43bf4921.svg",
+    "static/media/javascript.svg": "/portfoliopage/static/media/javascript.fd46ca41839433d73577989d86eb2fe2.svg",
+    "static/media/linkedin-icon.svg": "/portfoliopage/static/media/linkedin-icon.9bd7e6453c3131532672b02aba2bcf26.svg",
+    "static/media/google-gmail.svg": "/portfoliopage/static/media/google-gmail.831ed6247ab61a487f55411acbd8f59a.svg",
+    "index.html": "/portfoliopage/index.html",
+    "main.15b68db7.css.map": "/portfoliopage/static/css/main.15b68db7.css.map",
+    "main.bce80f35.js.map": "/portfoliopage/static/js/main.bce80f35.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.15b68db7.css",
+    "static/js/main.bce80f35.js"
+  ]
+}

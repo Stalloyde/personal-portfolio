@@ -1,0 +1,276 @@
+:root {
+  --primary-padding: 1rem;
+  --secondary-padding: 0.5rem;
+  --primary-color: rgb(37, 23, 73);
+  --secondary-color: rgb(241, 232, 232);
+}
+
+html {
+  scroll-snap-type: y proximity;
+}
+
+body {
+  background-color: var(--secondary-color);
+  font-size: 1rem;
+}
+
+a:hover {
+  transform: scale(1.05);
+}
+
+header {
+  display: flex;
+  background-color: var(--primary-color);
+  color: white;
+  position: sticky;
+  top: 0;
+  padding: var(--primary-padding);
+  box-shadow: 1px 0px 5px black;
+}
+
+header > h1 {
+  flex-grow: 1;
+  line-height: 1.5;
+}
+
+header > nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-grow: 0.2;
+  gap: 1vw;
+  align-items: center;
+}
+
+nav > a {
+  text-decoration: none;
+  color: white;
+  padding: var(--secondary-padding);
+}
+
+nav > a:hover {
+  background-color: rgb(247, 218, 57);
+  color: black;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 1px 0px 5px black;
+}
+
+svg {
+  color: white;
+  padding: var(--secondary-padding);
+}
+
+svg:hover {
+  background-color: rgb(247, 218, 57);
+  color: black;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 1px 0px 5px black;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.drop-down-menu-nav {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primary-color);
+  padding: var(--secondary-padding);
+  position: fixed;
+  top: 80px;
+  right: 0;
+  display: none;
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: var(--primary-padding);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
+h2 {
+  padding: var(--primary-padding);
+  font-size: 3rem;
+  text-decoration: underline;
+}
+
+#about > p {
+  padding: var(--primary-padding);
+  font-size: 1rem;
+  width: 60%;
+}
+
+#about > ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: var(--primary-padding);
+  list-style: none;
+  gap: 3vw;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 0.6rem;
+}
+
+.about-tech-stack {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+#projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: var(--primary-padding);
+  scroll-snap-align: start;
+}
+
+article {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid black;
+  width: 60%;
+  padding: var(--primary-padding);
+  justify-content: center;
+  align-items: center;
+}
+
+.project-screenshot {
+  min-width: 250px;
+  max-width: 420px;
+}
+
+.project-details {
+  width: 600px;
+  padding: var(--primary-padding);
+}
+
+.project-details > div {
+  padding: var(--primary-padding);
+}
+
+.project-details > ul {
+  margin-left: 2rem;
+}
+
+.project-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.project-links > a {
+  background-color: var(--primary-color);
+  text-decoration: none;
+  padding: var(--secondary-padding);
+  color: white;
+  font-weight: bold;
+  min-width: 100px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.project-links > a:hover {
+  cursor: pointer;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: var(--primary-padding);
+  height: 85vh;
+  scroll-snap-align: start;
+}
+
+#contact > div {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  max-width: 320px;
+}
+
+#contact > div > span {
+  padding: var(--primary-padding);
+}
+
+#contact > div > div {
+  display: grid;
+  padding: var(--primary-padding);
+}
+
+#contact > div > div > a {
+  text-decoration: none;
+  color: black;
+}
+
+.contact-icons {
+  max-width: 50px;
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: white;
+  position: sticky;
+  width: 100%;
+  padding: var(--primary-padding);
+  text-align: center;
+}
+
+.dark {
+  background-color: rgb(32, 29, 29);
+  color: white;
+}
+
+.dark > section > article > .project-details > .project-links > a {
+  background-color: rgb(247, 218, 57);
+  color: black;
+}
+
+.dark > #projects > article {
+  border-bottom: 1px solid rgb(247, 218, 57);
+}
+
+.dark > #contact > div > div > a {
+  color: white;
+}
+
+@media (max-width: 530px) {
+  .mobile-view-hide {
+    display: none;
+  }
+
+  .drop-down-menu-nav {
+    display: inherit;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  #about > p,
+  article,
+  #contact > div {
+    width: 100%;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .contact-icons,
+  .about-tech-stack {
+    max-width: 30px;
+    max-height: 30px;
+  }
+}
