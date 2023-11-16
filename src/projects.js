@@ -24,7 +24,7 @@ const projects = [
     name: 'Star Wars Memory Card Game',
     description:
       'Memory card game in the theme of Star Wars',
-    techStack: ['HTML', 'CSS', 'React'],
+    techStack: ['HTML', 'CSS', 'React', 'TypeScript'],
     repo: 'https://github.com/Stalloyde/memory-card',
     live: 'https://memory-card-navy.vercel.app/',
     imageUrl: memoryCardImg,
