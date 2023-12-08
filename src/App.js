@@ -15,6 +15,7 @@ import typescriptIcon from './Icons/typescript-icon.svg';
 import linkedinIcon from './Icons/linkedin-icon.svg';
 import instagramIcon from './Icons/instagram-icon.svg';
 import gmailIcon from './Icons/google-gmail.svg';
+import CV from './CV_EthanChan.pdf';
 
 const Header = ({ isDarkMode, handleDarkModeClick }) => {
   const [isMenuClick, setMenuClick] = useState(false);
@@ -204,6 +205,11 @@ const About = ({ mode }) => {
           </>
         )}
       </ul>
+      <div className='project-links'>
+      <a href={CV} download="CV_EthanChan" target='_blank' rel="noreferrer">
+        Download my CV
+      </a>
+    </div>
     </>
   );
 };
