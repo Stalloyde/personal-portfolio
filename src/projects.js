@@ -6,7 +6,7 @@ const projects = [
   {
     name: 'Sports Team Directory',
     description:
-      'A site that displays a sports team\'s roster with full CRUD features.',
+      'A directory page of a sports team\'s with full CRUD features.',
     description2:
       'PASSWORD TO CRUD ACTIONS: `password`',
     techStack: ['NodeJS', 'Express','MongoDB', 'Pug'],
