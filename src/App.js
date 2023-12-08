@@ -168,8 +168,8 @@ const About = ({ mode }) => {
         <strong> Front End Developer </strong>
       </p>
       <p>
-        I have embarked on a relentless journey to master the art of web
-        development. Through tenacious discipline and an insatiable hunger for
+        I have embarked on a journey to master the art of web
+        development. Through discipline and hunger for
         learning, I've honed my skills in HTML, CSS, and JavaScript to craft
         intuitive user experiences. With a self-driven commitment to continuous
         learning, I am excited to bring my diverse skill set and fresh
