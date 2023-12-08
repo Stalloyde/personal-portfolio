@@ -232,7 +232,7 @@ footer {
   color: white;
 }
 
-.dark > section > article > .project-details > .project-links > a {
+.dark > section > article > .project-details > .project-links > a, .dark > section > .project-links > a  {
   background-color: rgb(247, 218, 57);
   color: black;
 }

@@ -206,9 +206,9 @@ const About = ({ mode }) => {
         )}
       </ul>
       <div className='project-links'>
-      <a href={CV} download="CV_EthanChan" target='_blank' rel="noreferrer">
-        Download my CV
-      </a>
+        <a href={CV} download="CV_EthanChan" target='_blank' rel="noreferrer">
+          Download my CV
+        </a>
     </div>
     </>
   );
