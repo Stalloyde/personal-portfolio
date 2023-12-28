@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.cbdb7e6d.css",
-    "main.js": "/personal-portfolio/static/js/main.1d49f6cd.js",
+    "main.js": "/personal-portfolio/static/js/main.59cac72e.js",
     "static/media/Tech&Threads.png": "/personal-portfolio/static/media/Tech&Threads.dcf0619e834e6790e261.png",
     "static/media/Roboto-Regular.ttf": "/personal-portfolio/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
     "static/media/CV_EthanChan.pdf": "/personal-portfolio/static/media/CV_EthanChan.61b257a8c09d923aba79.pdf",
@@ -22,10 +22,10 @@
     "static/media/google-gmail.svg": "/personal-portfolio/static/media/google-gmail.831ed6247ab61a487f55411acbd8f59a.svg",
     "index.html": "/personal-portfolio/index.html",
     "main.cbdb7e6d.css.map": "/personal-portfolio/static/css/main.cbdb7e6d.css.map",
-    "main.1d49f6cd.js.map": "/personal-portfolio/static/js/main.1d49f6cd.js.map"
+    "main.59cac72e.js.map": "/personal-portfolio/static/js/main.59cac72e.js.map"
   },
   "entrypoints": [
     "static/css/main.cbdb7e6d.css",
-    "static/js/main.1d49f6cd.js"
+    "static/js/main.59cac72e.js"
   ]
 }
