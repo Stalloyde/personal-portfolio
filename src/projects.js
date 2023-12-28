@@ -1,18 +1,18 @@
 import techAndThreads from './project-screenshots/Tech&Threads.png';
 import battleshipImg from './project-screenshots/Battleship-screenshot.png';
-import sportsTeamDirectoryImg from './project-screenshots/sports-team-directory-screenshot.png';
+import membersOnlyImg from './project-screenshots/members-only-screenshot.png';
 
 const projects = [
   {
-    name: 'Sports Team Directory',
+    name: 'Members Only',
     description:
-      'A directory page of a sports team\'s with full CRUD features.',
+      'A forum where anyone can post and view anonymous messages. VIP users can view the username of messages. MODERATORS, who are invited to the role with a special password, have additional details of date & time posted and the feature to delete messages. ',
     description2:
-      'PASSWORD TO CRUD ACTIONS: `password`',
-    techStack: ['NodeJS', 'Express','MongoDB', 'Pug'],
-    repo: 'https://github.com/Stalloyde/Squad_Roster',
-    live: 'https://squadroster-production.up.railway.app/home',
-    imageUrl: sportsTeamDirectoryImg,
+      'INVITATION PASSWORD TO MODERATOR ACCOUNT IS NOT AVAILABLE TO PUBLIC',
+    techStack: ['NodeJS', 'Express','MongoDB', 'Pug', 'PassportJS', 'CSS'],
+    repo: 'https://github.com/Stalloyde/members-only',
+    live: 'https://members-only-stalloyde.fly.dev/members/member',
+    imageUrl: membersOnlyImg,
   },
   {
     name: 'Tech & Threads',
