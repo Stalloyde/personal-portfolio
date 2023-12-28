@@ -169,12 +169,11 @@ const About = ({ mode }) => {
         <strong> Front End Developer </strong>
       </p>
       <p>
-        I have embarked on a journey to master the art of web
-        development. Through discipline and hunger for
-        learning, I've honed my skills in HTML, CSS, and JavaScript to craft
-        intuitive user experiences. With a self-driven commitment to continuous
-        learning, I am excited to bring my diverse skill set and fresh
-        perspective to contribute effectively to any dynamic team.
+      A Singapore Permanent Resident currently employed as a swimming coach, I have a
+      proven track record of planning and fostering skill development. I’m seeking to leverage
+      my analytical and problem-solving skills in a transition to a software developer role.
+      Eager to apply strong communication skills, attention to detail and collaborative spirit to
+      create intuitive web applications.
       </p>
       <ul>
         {mode === 'light' ? (
