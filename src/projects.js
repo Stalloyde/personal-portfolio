@@ -11,7 +11,7 @@ const projects = [
       'INVITATION PASSWORD TO MODERATOR ACCOUNT IS NOT AVAILABLE TO PUBLIC',
     techStack: ['NodeJS', 'Express','MongoDB', 'Pug', 'PassportJS', 'CSS'],
     repo: 'https://github.com/Stalloyde/members-only',
-    live: 'https://members-only-stalloyde.fly.dev/members/member',
+    live: 'https://members-only-stalloyde.fly.dev/',
     imageUrl: membersOnlyImg,
   },
   {
