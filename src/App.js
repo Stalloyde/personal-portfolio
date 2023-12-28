@@ -15,6 +15,10 @@ import typescriptIcon from './Icons/typescript-icon.svg';
 import linkedinIcon from './Icons/linkedin-icon.svg';
 import instagramIcon from './Icons/instagram-icon.svg';
 import gmailIcon from './Icons/google-gmail.svg';
+import nodejsIcon from './Icons/nodejs-logo.svg';
+import nodejsIconDark from './Icons/dark-mode-icons/nodejs-logo-dark.svg';
+import expressjsIcon from './Icons/expressjs.svg';
+import expressjsIconDark from './Icons/dark-mode-icons/expressjs-dark.svg';
 import CV from './CV_EthanChan.pdf';
 
 const Header = ({ isDarkMode, handleDarkModeClick }) => {
@@ -110,6 +114,18 @@ const About = ({ mode }) => {
       p: 'Jest',
     },
     {
+      src: nodejsIcon,
+      className: 'about-tech-stack',
+      alt: 'nodejs-icon',
+      p: 'NodeJS',
+    },
+    {
+      src: expressjsIcon,
+      className: 'about-tech-stack',
+      alt: 'expressjs-icon',
+      p: 'ExpressJS',
+    },
+    {
       src: githubIcon,
       className: 'about-tech-stack',
       alt: 'github-icon',
@@ -153,6 +169,18 @@ const About = ({ mode }) => {
       className: 'about-tech-stack',
       alt: 'jest-icon',
       p: 'Jest',
+    },
+    {
+      src: nodejsIconDark,
+      className: 'about-tech-stack',
+      alt: 'nodejs-icon',
+      p: 'NodeJS',
+    },
+    {
+      src: expressjsIconDark,
+      className: 'about-tech-stack',
+      alt: 'expressjs-icon',
+      p: 'ExpressJS',
     },
     {
       src: githubIconDark,
