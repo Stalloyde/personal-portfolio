@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.cbdb7e6d.css",
-    "main.js": "/personal-portfolio/static/js/main.6315b2cd.js",
+    "main.js": "/personal-portfolio/static/js/main.1d49f6cd.js",
     "static/media/Tech&Threads.png": "/personal-portfolio/static/media/Tech&Threads.dcf0619e834e6790e261.png",
     "static/media/Roboto-Regular.ttf": "/personal-portfolio/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
-    "static/media/CV_EthanChan.pdf": "/personal-portfolio/static/media/CV_EthanChan.2faf03c358a8400a943d.pdf",
-    "static/media/sports-team-directory-screenshot.png": "/personal-portfolio/static/media/sports-team-directory-screenshot.d880f3f32b4842b71108.png",
+    "static/media/CV_EthanChan.pdf": "/personal-portfolio/static/media/CV_EthanChan.61b257a8c09d923aba79.pdf",
+    "static/media/members-only-screenshot.png": "/personal-portfolio/static/media/members-only-screenshot.ba258b4f66adb60a80a3.png",
     "static/media/Battleship-screenshot.png": "/personal-portfolio/static/media/Battleship-screenshot.a11d27683a94b42aa98c.png",
     "static/media/react.svg": "/personal-portfolio/static/media/react.e27571eaed899c642345e71163624ef9.svg",
     "static/media/jest.svg": "/personal-portfolio/static/media/jest.bdea2af60148e3a6f8a1df8b135027d8.svg",
@@ -22,10 +22,10 @@
     "static/media/google-gmail.svg": "/personal-portfolio/static/media/google-gmail.831ed6247ab61a487f55411acbd8f59a.svg",
     "index.html": "/personal-portfolio/index.html",
     "main.cbdb7e6d.css.map": "/personal-portfolio/static/css/main.cbdb7e6d.css.map",
-    "main.6315b2cd.js.map": "/personal-portfolio/static/js/main.6315b2cd.js.map"
+    "main.1d49f6cd.js.map": "/personal-portfolio/static/js/main.1d49f6cd.js.map"
   },
   "entrypoints": [
     "static/css/main.cbdb7e6d.css",
-    "static/js/main.6315b2cd.js"
+    "static/js/main.1d49f6cd.js"
   ]
 }
