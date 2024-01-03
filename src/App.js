@@ -194,7 +194,7 @@ const About = ({ mode }) => {
     <>
       <h2>About</h2>
       <p>
-        <strong> Front End Developer </strong>
+        <strong> Full-Stack Developer </strong>
       </p>
       <p>
       A Singapore Permanent Resident currently employed as a swimming coach, I have a
