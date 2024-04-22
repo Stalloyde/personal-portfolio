@@ -1,8 +1,25 @@
 import techAndThreads from './project-screenshots/Tech&Threads.png';
-import battleshipImg from './project-screenshots/Battleship-screenshot.png';
+import whereswaldoImg from './project-screenshots/whereswaldo-screenshot.png';
 import blogApiImg from './project-screenshots/blogapi-screenshot.png';
 
 const projects = [
+  {
+    name: "Where's Waldo",
+    description:
+      "A classic Where's Waldo game. Search and identify the characters as quickly as possible.",
+    techStack: [
+      'NodeJS',
+      'Express',
+      'Vitest',
+      'MongoDB',
+      'React',
+      'Typescript',
+      'CSS',
+    ],
+    repo: 'https://github.com/Stalloyde/wheres-waldo',
+    live: 'https://wheres-waldo-six.vercel.app/',
+    imageUrl: whereswaldoImg,
+  },
   {
     name: 'Blog Site',
     description:
@@ -22,15 +39,6 @@ const projects = [
     repo: 'https://github.com/Stalloyde/shopping-cart',
     live: 'https://shopping-cart-green-one.vercel.app/',
     imageUrl: techAndThreads,
-  },
-  {
-    name: 'Battleship',
-    description:
-      'A single player classic Battleship game developed with Test-driven development in vanilla JavaScript.',
-    techStack: ['HTML', 'CSS', 'Javascript', 'Jest'],
-    repo: 'https://github.com/Stalloyde/battleship',
-    live: 'https://stalloyde.github.io/battleship/',
-    imageUrl: battleshipImg,
   },
 ];
 

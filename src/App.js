@@ -195,12 +195,12 @@ const About = ({ mode }) => {
         <strong> Full-Stack Developer </strong>
       </p>
       <p>
-        A Singapore Permanent Resident currently employed as a swimming coach, I
-        have a proven track record of planning and fostering skill development.
-        I’m seeking to leverage my analytical and problem-solving skills in a
-        transition to a software developer role. Eager to apply strong
-        communication skills, attention to detail and collaborative spirit to
-        create intuitive web applications.
+        A Singapore Permanent Resident seeking to transition to a software
+        developer role. Since March 2022, I have been immersed in web
+        development through The Odin Project (TOP) - a self-directed,
+        project-based, open-source curriculum for full-stack development. Eager
+        to apply strong communication skills, attention to detail and
+        collaborative spirit to create intuitive web applications.
       </p>
       <ul>
         {mode === 'light' ? (
