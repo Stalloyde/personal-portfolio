@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.cbdb7e6d.css",
-    "main.js": "/personal-portfolio/static/js/main.c37dd42d.js",
+    "main.js": "/personal-portfolio/static/js/main.7cf89016.js",
+    "static/media/whereswaldo-screenshot.png": "/personal-portfolio/static/media/whereswaldo-screenshot.d1798d3631e114290bf3.png",
     "static/media/Tech&Threads.png": "/personal-portfolio/static/media/Tech&Threads.dcf0619e834e6790e261.png",
     "static/media/Roboto-Regular.ttf": "/personal-portfolio/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
     "static/media/blogapi-screenshot.png": "/personal-portfolio/static/media/blogapi-screenshot.77aef99cc115c2a0ace0.png",
-    "static/media/CV_EthanChan.pdf": "/personal-portfolio/static/media/CV_EthanChan.f7070c86ea32b832f693.pdf",
-    "static/media/Battleship-screenshot.png": "/personal-portfolio/static/media/Battleship-screenshot.a11d27683a94b42aa98c.png",
+    "static/media/CV_EthanChan.pdf": "/personal-portfolio/static/media/CV_EthanChan.3eae09622407aa02fbe8.pdf",
     "static/media/react.svg": "/personal-portfolio/static/media/react.e27571eaed899c642345e71163624ef9.svg",
     "static/media/jest.svg": "/personal-portfolio/static/media/jest.bdea2af60148e3a6f8a1df8b135027d8.svg",
     "static/media/github-icon.svg": "/personal-portfolio/static/media/github-icon.04ed74f38b41cdcbf14f80ae8cd0aa2b.svg",
@@ -26,10 +26,10 @@
     "static/media/expressjs-dark.svg": "/personal-portfolio/static/media/expressjs-dark.49e040b3409b27c4d1b11af368801cc2.svg",
     "index.html": "/personal-portfolio/index.html",
     "main.cbdb7e6d.css.map": "/personal-portfolio/static/css/main.cbdb7e6d.css.map",
-    "main.c37dd42d.js.map": "/personal-portfolio/static/js/main.c37dd42d.js.map"
+    "main.7cf89016.js.map": "/personal-portfolio/static/js/main.7cf89016.js.map"
   },
   "entrypoints": [
     "static/css/main.cbdb7e6d.css",
-    "static/js/main.c37dd42d.js"
+    "static/js/main.7cf89016.js"
   ]
 }
