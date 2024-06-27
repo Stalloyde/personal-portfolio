@@ -268,7 +268,7 @@ const Projects = () => {
               {project.demoInfo && (
                 <ul>
                   {project.demoInfo.map((info) => (
-                    <li>
+                    <li key={info.username}>
                       {info.username} - {info.password}
                     </li>
                   ))}
