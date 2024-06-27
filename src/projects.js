@@ -1,8 +1,31 @@
 import techAndThreads from './project-screenshots/Tech&Threads.png';
 import whereswaldoImg from './project-screenshots/whereswaldo-screenshot.png';
 import blogApiImg from './project-screenshots/blogapi-screenshot.png';
+import messagingAppImg from './project-screenshots/messagin-app-screenshot.png';
 
 const projects = [
+  {
+    name: 'Messaging App',
+    description:
+      'Manage contacts, create groups and chat in real-time in this messaging site. Below are three demo username-password combinations to test the site out:',
+    demoInfo: [
+      { username: 'user', password: '123' },
+      { username: 'pineapple', password: '123' },
+      { username: 'bae2won', password: '123' },
+    ],
+    techStack: [
+      'NodeJS',
+      'Express',
+      'MongoDB',
+      'React',
+      'Typescript',
+      'CSS',
+      'Socket.io',
+    ],
+    repo: 'https://github.com/Stalloyde/messagingapp-client',
+    live: 'https://messagingapp-client.vercel.app ',
+    imageUrl: messagingAppImg,
+  },
   {
     name: "Where's Waldo",
     description:
