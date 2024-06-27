@@ -246,62 +246,48 @@ const Projects = () => {
       <h2>Projects</h2>
 
       {projects.map((project) => {
-        if (project.description2) {
-          return (
-            <article key={project.name}>
-              <img
-                src={project.imageUrl}
-                alt='project-screenshot'
-                className='project-screenshot'
-              />
-              <div className='project-details'>
-                <h3>{project.name}</h3>
-                {project.description}
-                <br></br>
-                <br></br>
-                {project.description2}
-                <br></br>
-                <br></br>
-                This project was developed using:
+        return (
+          <article key={project.name}>
+            <img
+              src={project.imageUrl}
+              alt='project-screenshot'
+              className='project-screenshot'
+            />
+            <div className='project-details'>
+              <h3>{project.name}</h3>
+              {project.description}
+              <br></br>
+              <br></br>
+              {project.description2 && (
+                <>
+                  {project.description2}
+                  <br></br>
+                  <br></br>
+                </>
+              )}
+              {project.demoInfo && (
                 <ul>
-                  {project.techStack.map((tech) => (
-                    <li key={tech}>{tech}</li>
+                  {project.demoInfo.map((info) => (
+                    <li>
+                      {info.username} - {info.password}
+                    </li>
                   ))}
+                  <br></br>
                 </ul>
-                <div className='project-links'>
-                  <a href={project.repo}>Repository</a>
-                  <a href={project.live}>Live Demo</a>
-                </div>
+              )}
+              This project was developed using:
+              <ul>
+                {project.techStack.map((tech) => (
+                  <li key={tech}>{tech}</li>
+                ))}
+              </ul>
+              <div className='project-links'>
+                <a href={project.repo}>Repository</a>
+                <a href={project.live}>Live Demo</a>
               </div>
-            </article>
-          );
-        } else {
-          return (
-            <article key={project.name}>
-              <img
-                src={project.imageUrl}
-                alt='project-screenshot'
-                className='project-screenshot'
-              />
-              <div className='project-details'>
-                <h3>{project.name}</h3>
-                {project.description}
-                <br></br>
-                <br></br>
-                This project was developed using:
-                <ul>
-                  {project.techStack.map((tech) => (
-                    <li key={tech}>{tech}</li>
-                  ))}
-                </ul>
-                <div className='project-links'>
-                  <a href={project.repo}>Repository</a>
-                  <a href={project.live}>Live Demo</a>
-                </div>
-              </div>
-            </article>
-          );
-        }
+            </div>
+          </article>
+        );
       })}
     </>
   );
