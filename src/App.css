@@ -97,6 +97,10 @@ h2 {
   text-decoration: underline;
 }
 
+#about > div {
+  padding: var(--primary-padding);
+}
+
 #about > p {
   padding: var(--primary-padding);
   font-size: 1rem;
@@ -156,12 +160,12 @@ article {
   margin-left: 2rem;
 }
 
-.project-links {
+.button-links {
   display: flex;
   gap: 1rem;
 }
 
-.project-links > a {
+.button-links > a {
   background-color: var(--primary-color);
   text-decoration: none;
   padding: var(--secondary-padding);
@@ -172,7 +176,7 @@ article {
   border-radius: 10px;
 }
 
-.project-links > a:hover {
+.button-links > a:hover {
   cursor: pointer;
 }
 
@@ -225,7 +229,7 @@ footer {
   color: white;
 }
 
-.dark > section > article > .project-details > .project-links > a, .dark > section > .project-links > a  {
+.dark > section > article > .project-details > .button-links > a, .dark > section > .button-links > a  {
   background-color: rgb(247, 218, 57);
   color: black;
 }
