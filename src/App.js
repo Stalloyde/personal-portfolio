@@ -235,7 +235,7 @@ const About = ({ mode }) => {
           </>
         )}
       </ul>
-      <div className='project-links'>
+      <div className='button-links'>
         <a href={CV} download='CV_EthanChan' target='_blank' rel='noreferrer'>
           Download my CV
         </a>
@@ -285,7 +285,7 @@ const Projects = () => {
                   <li key={tech}>{tech}</li>
                 ))}
               </ul>
-              <div className='project-links'>
+              <div className='button-links'>
                 <a href={project.repo}>Repository</a>
                 <a href={project.live}>Live Demo</a>
               </div>
