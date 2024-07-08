@@ -5,10 +5,6 @@
   --secondary-color: rgb(241, 232, 232);
 }
 
-html {
-  scroll-snap-type: y proximity;
-}
-
 body {
   background-color: var(--secondary-color);
   font-size: 1rem;
@@ -93,7 +89,6 @@ svg:hover {
   background-position: center;
   background-size: cover;
   height: 100vh;
-  scroll-snap-align: start;
 }
 
 h2 {
@@ -131,7 +126,6 @@ h2 {
   justify-content: center;
   align-items: center;
   padding: var(--primary-padding);
-  scroll-snap-align: start;
 }
 
 article {
@@ -189,7 +183,6 @@ article {
   align-items: center;
   padding: var(--primary-padding);
   height: 85vh;
-  scroll-snap-align: start;
 }
 
 #contact > div {
@@ -246,6 +239,10 @@ footer {
 }
 
 @media (max-width: 530px) {
+  #about, #contact {
+      height: 100%;  
+  }
+
   .mobile-view-hide {
     display: none;
   }
