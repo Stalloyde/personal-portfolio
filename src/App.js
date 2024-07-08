@@ -21,11 +21,15 @@ import expressjsIcon from './Icons/expressjs.svg';
 import expressjsIconDark from './Icons/dark-mode-icons/expressjs-dark.svg';
 import CV from './CV_EthanChan.pdf';
 
-const Header = ({ isDarkMode, handleDarkModeClick }) => {
-  const [isMenuClick, setMenuClick] = useState(false);
-
+const Header = ({
+  isDarkMode,
+  handleDarkModeClick,
+  isMenuClick,
+  setMenuClick,
+  handleMenu,
+}) => {
   return (
-    <header>
+    <header onClick={handleMenu}>
       <h1>Ethan Chan</h1>
 
       <nav>
@@ -351,10 +355,15 @@ const Footer = () => {
 
 const App = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isMenuClick, setMenuClick] = useState(false);
   const [mode, setMode] = useState('light');
 
   const handleDarkModeClick = () => {
     setIsDarkMode(!isDarkMode);
+  };
+
+  const handleMenu = () => {
+    if (isMenuClick === true) setMenuClick(false);
   };
 
   useEffect(() => {
@@ -366,9 +375,12 @@ const App = () => {
       <Header
         isDarkMode={isDarkMode}
         handleDarkModeClick={handleDarkModeClick}
+        isMenuClick={isMenuClick}
+        setMenuClick={setMenuClick}
+        handleMenu={handleMenu}
       />
 
-      <main className={mode}>
+      <main className={mode} onClick={handleMenu}>
         <section id='about'>
           <About mode={mode} />
         </section>
