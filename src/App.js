@@ -19,6 +19,13 @@ import nodejsIcon from './Icons/nodejs-logo.svg';
 import nodejsIconDark from './Icons/dark-mode-icons/nodejs-logo-dark.svg';
 import expressjsIcon from './Icons/expressjs.svg';
 import expressjsIconDark from './Icons/dark-mode-icons/expressjs-dark.svg';
+import mongodbIcon from './Icons/mongodb.svg';
+import mongodbIconDark from './Icons/dark-mode-icons/mongodb-dark.svg';
+import prismaIcon from './Icons/prisma.svg';
+import prismaIconDark from './Icons/dark-mode-icons/prisma-dark.svg';
+import mongooseIcon from './Icons/mongoose.svg';
+import postgresqlIcon from './Icons/postgresql.svg';
+
 import CV from './CV_EthanChan.pdf';
 
 const Header = ({
@@ -133,6 +140,30 @@ const About = ({ mode }) => {
       alt: 'github-icon',
       p: 'GitHub',
     },
+    {
+      src: mongodbIcon,
+      className: 'about-tech-stack',
+      alt: 'mongodb-icon',
+      p: 'MongoDB',
+    },
+    {
+      src: prismaIcon,
+      className: 'about-tech-stack',
+      alt: 'prisma-icon',
+      p: 'Prisma',
+    },
+    {
+      src: mongooseIcon,
+      className: 'about-tech-stack',
+      alt: 'mongoose-icon',
+      p: 'Mongoose',
+    },
+    {
+      src: postgresqlIcon,
+      className: 'about-tech-stack',
+      alt: 'postgresql-icon',
+      p: 'PostgreSQL',
+    },
   ];
 
   const darkImages = [
@@ -189,6 +220,30 @@ const About = ({ mode }) => {
       className: 'about-tech-stack',
       alt: 'github-icon',
       p: 'GitHub',
+    },
+    {
+      src: mongodbIconDark,
+      className: 'about-tech-stack',
+      alt: 'mongodb-icon',
+      p: 'MongoDB',
+    },
+    {
+      src: prismaIconDark,
+      className: 'about-tech-stack',
+      alt: 'prisma-icon',
+      p: 'Prisma',
+    },
+    {
+      src: mongooseIcon,
+      className: 'about-tech-stack',
+      alt: 'mongoose-icon',
+      p: 'Mongoose',
+    },
+    {
+      src: postgresqlIcon,
+      className: 'about-tech-stack',
+      alt: 'postgresql-icon',
+      p: 'PostgreSQL',
     },
   ];
 

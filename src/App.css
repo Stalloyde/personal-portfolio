@@ -113,6 +113,7 @@ h2 {
   padding: var(--primary-padding);
   list-style: none;
   gap: 3vw;
+  max-width: 50%;
   align-items: center;
   text-align: center;
   justify-content: center;
