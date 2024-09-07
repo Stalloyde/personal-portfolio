@@ -16,7 +16,8 @@ const projects = [
     techStack: [
       'NodeJS',
       'Express',
-      'MongoDB',
+      'PostgreSQL',
+      'Prisma',
       'React',
       'Typescript',
       'CSS',
