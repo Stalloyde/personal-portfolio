@@ -357,8 +357,14 @@ const Contact = ({ mode }) => {
     <>
       <h2>Contact</h2>
       <div>
-        <img src={gmailIcon} className='contact-icons' alt='gmail-icon' />
-        <span>ooithong.chan@gmail.com</span>
+        <div>
+          <a
+            id='email'
+            href='https://mail.google.com/mail/?view=cm&fs=1&to=ooithong.chan@gmail.com'>
+            <img src={gmailIcon} className='contact-icons' alt='gmail-icon' />
+            ooithong.chan@gmail.com
+          </a>
+        </div>
       </div>
       <div>
         <div>

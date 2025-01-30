@@ -212,6 +212,12 @@ article {
   color: black;
 }
 
+#email {
+  display: flex;
+  gap:10px;
+  align-items: center;
+}
+
 .contact-icons {
   max-width: 50px;
 }
