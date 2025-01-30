@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.7fec0896.css",
-    "main.js": "/personal-portfolio/static/js/main.927f2900.js",
+    "main.css": "/personal-portfolio/static/css/main.5ca1e98a.css",
+    "main.js": "/personal-portfolio/static/js/main.708b56a9.js",
     "static/media/whereswaldo-screenshot.png": "/personal-portfolio/static/media/whereswaldo-screenshot.d1798d3631e114290bf3.png",
     "static/media/Tech&Threads.png": "/personal-portfolio/static/media/Tech&Threads.dcf0619e834e6790e261.png",
     "static/media/Roboto-Regular.ttf": "/personal-portfolio/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
@@ -33,11 +33,11 @@
     "index.html": "/personal-portfolio/index.html",
     "static/media/prisma-dark.svg": "/personal-portfolio/static/media/prisma-dark.0039222e9c4214502026d30ad20017c1.svg",
     "static/media/prisma.svg": "/personal-portfolio/static/media/prisma.8bf943c6b9925d130ae977c56b4be0da.svg",
-    "main.7fec0896.css.map": "/personal-portfolio/static/css/main.7fec0896.css.map",
-    "main.927f2900.js.map": "/personal-portfolio/static/js/main.927f2900.js.map"
+    "main.5ca1e98a.css.map": "/personal-portfolio/static/css/main.5ca1e98a.css.map",
+    "main.708b56a9.js.map": "/personal-portfolio/static/js/main.708b56a9.js.map"
   },
   "entrypoints": [
-    "static/css/main.7fec0896.css",
-    "static/js/main.927f2900.js"
+    "static/css/main.5ca1e98a.css",
+    "static/js/main.708b56a9.js"
   ]
 }
