@@ -2,6 +2,7 @@ import techAndThreads from './project-screenshots/Tech&Threads.png';
 import whereswaldoImg from './project-screenshots/whereswaldo-screenshot.png';
 import blogApiImg from './project-screenshots/blogapi-screenshot.png';
 import messagingAppImg from './project-screenshots/messagin-app-screenshot.png';
+import autocoachImg from './project-screenshots/autocoach-app-screenshot.png';
 
 const projects = [
   {
@@ -26,6 +27,23 @@ const projects = [
     repo: 'https://github.com/Stalloyde/messagingapp-client',
     live: 'https://messagingapp-client.vercel.app ',
     imageUrl: messagingAppImg,
+  },
+  {
+    name: 'Auto-Coach',
+    description:
+      'Automates the repetitive task of sending swimmers off on an interval, allowing myself to provide more value to the athletes.',
+    techStack: [
+      'NodeJS',
+      'Express',
+      'PostgreSQL',
+      'Prisma',
+      'React',
+      'Typescript',
+      'Tailwind',
+    ],
+    repo: 'https://github.com/Stalloyde/autocoach',
+    live: 'https://autocoach.vercel.app',
+    imageUrl: autocoachImg,
   },
   {
     name: "Where's Waldo",
